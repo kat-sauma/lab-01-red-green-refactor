@@ -1,8 +1,8 @@
 
 const getName = (spot) => {
-    const objName = spot.name;
+    const { name } = spot;
 
-    return objName;
+    return name;
 };
 
 module.exports = getName;
