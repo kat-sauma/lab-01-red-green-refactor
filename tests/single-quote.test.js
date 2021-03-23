@@ -9,7 +9,6 @@ describe('getQuotes function', () => {
         text: expect.any(String),
         image: expect.any(String),
       };
-      console.log(quote);
       expect(quote).toEqual(expect.objectContaining(charInfo));
     });
   });
